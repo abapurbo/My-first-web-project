@@ -6,7 +6,6 @@
 #main-frame {
     width: 1270px;
     height: 4000px;
-    border: 2px solid black;
     
 
 }
@@ -93,9 +92,8 @@
     bottom: 2995px;
     margin-left:92px;
     margin-right:185px;
-    border:3px solid black;
-
-    /* flexAuto layout */
+    /* border:3px solid rgb(82, 243, 18); */
+     /* flexAuto layout */
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
@@ -104,7 +102,7 @@
     padding:0 98px 0 98px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    border-radius: 0px;
+
 
 }
 
@@ -133,7 +131,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
@@ -161,7 +158,6 @@
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     display:flex;
-    /* border:2px solid black; */
     justify-self:flex-start;
     flex-direction:column;
     align-items:flex-start;
@@ -425,4 +421,89 @@ margin-bottom:5px;;
         text-align: center;
         padding: 12px 20px 12px 20px;
           
+        }
+        /* section 2 */
+        .main2{
+          /* border:2px solid rgb(221, 6, 6); */
+          position: absolute;
+          width: 1100px;
+          height: 747px;
+          left:91px;
+          /* right: 152px; */
+          top: 2000px;
+          bottom: 2130px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 0px;
+
+        }
+        .main2 h3{
+            color: rgb(13, 19, 33);
+            position: static;
+            width: 852px;
+            height: 37px;
+            display:flex;
+            justify-content:flex-start;
+            flex-direction: column;
+            align-items: center;
+            font-size:32px;
+            font-weight: 800;
+            font-family: Azeret Mono;
+            line-height: 37px;
+            letter-spacing: 0%;
+            text-align: center;
+            top:0px;
+            margin-bottom: 24px; 
+            padding:0px;
+            
+        }
+        .main2 p{
+           color: rgb(13, 19, 33);
+           position: static;
+           width: 700px;
+           height: 52px;
+           /* Auto layout */
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-start;
+           align-items: center;
+           padding: 0px;         
+           font-family: Azeret Mono;
+           font-size: 16px;
+           font-weight: 400;
+           line-height: 26px;
+           letter-spacing: 0%;
+           text-align: center;
+           margin-bottom:48px;
+           /* border:2px solid black; */
+        }
+        .iframe-section{
+            position: static;
+            width: 1100px;
+            height: 580px;
+            border:2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items:center;
+            box-sizing: border-box;
+            border: 1px solid rgba(13, 19, 33, 0.2);
+            border-radius: 16px;
+             
+         
+    
+                      
+        }
+        .iframe-section iframe{
+            position: static;
+            width: 1000px;
+            height: 500px; 
+            margin:43px;
+            border-radius: 16px;
+            background: url(Jhankar);
+            /* margin:34px; */
+
+            
         }
