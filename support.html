@@ -17,11 +17,9 @@
             justify-content: center;
             align-items: center; 
             background-image: url("../My-first-web-project/assets/handshake.jpg");
-            /* background-position: fixed; */
             background-size: cover;
-        
+            background-size:94% 70%;
             background-repeat: no-repeat;
-            background-position: center;
             background-blend-mode:overlay; 
             background-attachment:fixed;
             border-radius: 16px;
@@ -88,45 +86,85 @@
             display: flex;
 
         }
+        .search-container{
+            position: static;
+            width: 548px;
+            height: 57px; 
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            box-sizing: border-box;
+            border: 1px solid rgba(13, 19, 33, 0);
+            border-radius: 8px;
+            background: rgb(255, 255, 255); 
+            border:none;     
+            padding:0px;
+        }
+
         .search-container input{
             position: static;
             width: 548px;
             height: 54px;
             box-sizing: border-box;
-            border: 1px solid rgba(13, 19, 33, 0.15);
+            border: 1px solid rgba(13, 19, 33, 0); 
             border-radius: 8px;
             background: rgb(255, 255, 255);
             font-family: Azeret Mono;
             font-size: 16px;
             font-weight: 400;
-            line-height: 19px;
-            padding:19px 20px 19px 40xp;
+            /* line-height: 19px; */
+            padding:0px;
+            margin-top:19px;
+            margin-left:12px;
+            margin-bottom:19px;
+            flex-wrap: wrap;
+            margin:19px 20px;
+
              
         }
-      .search .int{
-        
+      
+           .search-submit{
+ 
             position: static;
             width: 120px;
-            height: 56px;
+            height: 24px;
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            padding: 17px 20px 17px 20px;
-            gap:12px;
-            padding: 17px 20px 17px 20px;               
+
             border-radius: 8px;
-            background: rgb(255, 255, 255);
-            font-family: Azeret Mono;
-            font-size: 20px;
-            font-weight: 600;
-            line-height: 23px;
-            letter-spacing: 0%;
-            text-align: center; 
-            margin-left:12px;
-            border:none;
+            background: rgb(255, 255, 255); 
+            margin-left:13px;
+        }
+      
+  
+      .search .int{
+           color: rgb(13, 19, 33);
+           position: static;
+           width:80px;
+           height:54px;
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           align-items: center;
+           flex-grow: 1;
+           margin: 0px 10px;
+           font-family: Azeret Mono;
+           font-size: 20px;
+           font-weight: 600;
+           line-height: 23px;
+           letter-spacing: 0%;
+           text-align: center;
+           border:none;
+           background: rgb(255, 255, 255);
+           border-radius:8px;
+           
+
          
-         }
+      }
+     
     </style>
 </head>
 <body>
